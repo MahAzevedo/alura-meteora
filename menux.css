@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    width: 375px;
+    height: 6012px;
+}
+
+.container-menu {
+    border-radius: 0px;
+    background: #000;
+    width: 375px;
+    height: 58px;
+}
+
+.logo-mobile {
+    width: 125.7px;
+    height: 18px;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 20px 158px 20px 22px;
+}
+
+
+
+/*****************************/
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #DAFF01;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
