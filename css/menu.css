@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-direction: row;
+}
+
+.logo {
+    padding: 26px;
+}
+
+.container-nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-nav-ul-links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+
