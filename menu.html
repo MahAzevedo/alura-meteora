@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meteora</title>
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
     <header>
@@ -13,14 +14,14 @@
             <nav class="container-nav-links">
                 <img src="img/Logo mobile.png" alt="Logo Meteora" class="logo"> 
                 <ul class="container-nav-ul-links">
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>Nossas lojas</li>
-                    <li><a href="#"></a>Novidades</li>
-                    <li><a href="#"></a>Promoções</li>
+                    <li class="container-nav-ul-li-links"><a href="#">Home</a></li>
+                    <li class="container-nav-ul-li-links"><a href="#">Nossas lojas</a></li>
+                    <li class="container-nav-ul-li-links"><a href="#">Novidades</a></li>
+                    <li class="container-nav-ul-li-links"><a href="#">Promoções</a></li>
                 </ul>
                 <div class="digiteproduto">
                     <input type="text" placeholder="Digite o produto">
-                    <input type="text" placeholder="Buscar">
+                    <button type="button">Buscar</button>
                 </div>
                 <div class="container-bar" onclick="myFunction(this)">
                     <div class="bar1"></div>
@@ -30,6 +31,151 @@
             </nav>
         </div>
     </header>
-    <script src="menu.js"></script>
+
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#colecao" data-slide-to="0" class="active"></li>
+            <li data-target="#colecao" data-slide-to="1"></li>
+            <li data-target="#colecao" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel-375/Image.png" alt="Primeira imagem">
+            </div>
+            <div class="carousel-item">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <section class="container__card__list">
+        <ol class="card__list">
+                <li class="card">
+                    <img src="img/card/Card camiseta.png" alt="Imagem 01" class="imgCard">
+                    <div class="card__imagem">
+                        <h4>Camiseta Conforto</h4>
+                        <p>
+                            Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.
+                        </p>
+                        <p>R$ 70,00</p>
+                        <a href="#" class="verMais">Ver mais</a>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img src="img/card/Card calça.png" alt="Imagem 02" class="imgCard">
+                    <div class="card__imagem">
+                        <h4>Calça Alfaiataria</h4>
+                         <p>
+                            Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!
+                        </p>
+                        <p>R$ 180,00</p>
+                        <a href="#" class="verMais">Ver mais</a>
+                    </div>
+                </li>
+
+                <li class="card">
+                    <img src="img/card/Card tenis.png" alt="Imagem 03" class="imgCard">
+                    <div class="card__imagem">
+                        <h4>Tênis Chunky</h4>
+                        <p>
+                            Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.
+                        </p>
+                        <p>R$ 250,00</p>
+                        <a href="#" class="verMais">Ver mais</a>
+                    </div>
+                </li>
+
+                            <li class="card">
+                                <img src="img/card/Card jaqueta jeans.png" alt="Imagem 04" class="imgCard">
+                                <div class="card__imagem">
+                                    <h4>Jaqueta Jeans</h4>
+                                    <p>
+                                        Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
+                                    </p>
+                                    <p>R$ 150,00</p>
+                                    <a href="#" class="verMais">Ver mais</a>
+                                    </div>
+                                </li>
+
+                                <li class="card">
+                                    <img src="img/card/Cards óculos.png" alt="Imagem 05" class="imgCard">
+                                    <div class="card__imagem">
+                                        <h4>Óculos Redondo</h4>
+                                        <p>
+                                            Armação metálica em grafite com lentes arredondadas. Sem erro!
+                                        </p>
+                                        <p>R$ 120,00</p>
+                                        <a href="#" class="verMais">Ver mais</a>
+                                        </div>
+                                    </li>
+
+                                <img src="img/card/Card bolsa.png" alt="Imagem 06" class="imgCard">
+                                <div class="card__imagem">
+                                    <h4>Bolsa coringa</h4>
+                                    <p>
+                                        Bolsa camel em couro sintético de alta duração. 
+                                        Ideal para acompanhar você por uma vida!
+                                    </p>
+                                    <p>R$ 120,00</p>
+                                    <a href="#" class="verMais">Ver mais</a>
+                                    </div>
+                                </li>
+                             </ol>
+                         </section>
+
+
+
+
+
+    <footer>
+        <!-- Pagamento-->
+        <section class="tiposDePagamento">
+            <h3>Conheça todas as nossas facilidades</h3>
+            <img src="img/pagamento/x-diamond.png" alt="Imagem Diamond" class="imgDiamond">
+            <h4>PAGUE PELO PIX</h4>
+            <p>Ganhe 5% OFF em pagamentos via PIX</p>
+
+            <img src="img/pagamento/arrow-repeat.png" alt="Imagem Arrow" class="imgArrow">
+            <h4>TROCA GRÁTIS</h4>
+            <p>Fique livre para trocar em até 30 dias.</p>
+
+            <img src="img/pagamento/flower1.png" alt="Imagem Flower" class="imgFlower">
+            <h4>SUSTENTABILIDADE</h4>
+            <p>Moda responsável, que respeita o meio ambiente.</p>
+
+        </section>
+
+        <!--News Letter-->
+
+        <section class="receberPromocoes">
+            <p>
+                Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!
+            </p>
+            <div class="receberPromocoesBotoes">
+                <input type="text" placeholder="Digite seu email">
+                <button form="submit">Enviar</button>
+            </div>
+        </section>
+
+        <!-- Quem criou, quem desenvolveu-->
+
+        <section class="quemDesenvolveuRodape">
+            <p class="aluraRodape">
+                2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.
+            </p>
+            <p class="madjanRodape">
+                Executado por Mádjan Azevedo - Front-End Developer.
+            </p>
+        </section>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/card.js"></script>
 </body>
 </html>
