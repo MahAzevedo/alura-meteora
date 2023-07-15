@@ -43,32 +43,32 @@ const card = [
 
 ];
 
-const list = document.querySelector(".episodes__list");
+const list = document.querySelector(".card__list");
 
 
 function addCard(card) {
-    for (let i = 0; i < episodes.length; i++) {
+    for (let i = 0; i < card.length; i++) {
         
-        renderCard(episodes[i]);
+        renderCard(card[i]);
     }
 }
 
 
-addCard(episodes);
+addCard(card);
 
-function renderCard(episodio) {
+function renderCard(card) {
     const listItem = document.createElement("li");
     listItem.classList.add("card");
 
     listItem.innerHTML = `
     <img 
-    src=${episodio.img} 
-    alt=${episodio.title}
+    src=${card.img} 
+    alt=${card.title}
 />
 <div class="card__texto">
-    <h4>${episodio.title}</h4>
+    <h4>${card.title}</h4>
     <p>
-    ${episodio.description}
+    ${card.description}
     </p>
 </div>
     
