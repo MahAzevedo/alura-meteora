@@ -1,0 +1,14 @@
+/*  JAVASCRIPT  */
+
+.card__list {
+    width: 671px;
+    height: 762px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card {
+    display: flex;
+    align-items: right;
+    margin: 18px;
+}

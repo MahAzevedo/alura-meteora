@@ -1,0 +1,42 @@
+/*  Newsletter */
+.tiposDePagamento {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font: 1em sans-serif;
+    padding: 16px;
+}
+
+
+
+.receberPromocoes {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font: 1em sans-serif;
+    padding: 16px;
+}
+
+.receberPromocoesBotoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.verMais {
+    background-color: #9353FF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container__card__list {
+    background-color: #FFFFFF;
+}
+.card {
+    padding: 13px 20px 16px 26px;
+}

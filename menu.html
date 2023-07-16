@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/newsletter.css">
+    <link rel="stylesheet" href="css/categoria.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bar.css">
 </head>
 <body>
     <header>
-        <div class="container-header"> 
-            <nav class="container-nav-links">
-                <img src="img/Logo mobile.png" alt="Logo Meteora" class="logo"> 
-                <ul class="container-nav-ul-links">
-                    <li class="container-nav-ul-li-links"><a href="#">Home</a></li>
-                    <li class="container-nav-ul-li-links"><a href="#">Nossas lojas</a></li>
-                    <li class="container-nav-ul-li-links"><a href="#">Novidades</a></li>
-                    <li class="container-nav-ul-li-links"><a href="#">Promoções</a></li>
-                </ul>
-                <div class="digiteproduto">
-                    <input type="text" placeholder="Digite o produto">
-                    <button type="button">Buscar</button>
-                </div>
-                <div class="container-bar" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            </nav>
-        </div>
+        <nav class="nav-links">
+            <img src="img/Logo mobile.png" alt="Logo Meteora" class="logo"> 
+            <div class="bar" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="nav-ul-links">
+                <li class="nav-ul-li-links"><a href="#">Home</a></li>
+                <li class="nav-ul-li-links"><a href="#">Nossas lojas</a></li>
+                <li class="nav-ul-li-links"><a href="#">Novidades</a></li>
+                <li class="nav-ul-li-links"><a href="#">Promoções</a></li>
+            </ul>
+            <div class="digiteproduto">
+                <input type="text" placeholder="Digite o produto">
+                <button type="button">Buscar</button>
+            </div>
+        </nav>
     </header>
 
 
@@ -175,5 +177,6 @@
 
     <script src="js/menu.js"></script>
     <script src="js/card.js"></script>
+    <script src="js/toggle.js"></script>
 </body>
 </html>
