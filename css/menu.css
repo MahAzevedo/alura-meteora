@@ -1,20 +1,27 @@
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: black; 
+    background-color: black;
+    padding: 11px;
+    margin: -2px; /*testar isso 
+    pra ver se fsz sentido*/
 }
 
 .logo {
-    padding: 28px 58px 8px 57px;
+    /* padding: 14px 97px 8px 55px; */
+    width: 181px;
+    height: 33px;
 }
 
+/* não tá bom isso daqui, melhor apagar
 .nav-links {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
 }
+*/
 
 .nav-ul-links {
     display: flex;
@@ -22,6 +29,7 @@ header {
     overflow: hidden;
     display: flex;
     list-style: none;
+    gap: 10px;
 }
 
 .nav-ul-links:hover {

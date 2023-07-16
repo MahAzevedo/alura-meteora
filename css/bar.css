@@ -1,6 +1,7 @@
 .bar{
     display: inline-block;
     cursor: pointer;
+    padding-left: 97px;
 }
 
 .bar1, .bar2, .bar3 {
