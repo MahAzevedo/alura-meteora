@@ -30,6 +30,7 @@ header {
     display: flex;
     list-style: none;
     gap: 10px;
+    list-style: none;
 }
 
 .nav-ul-links:hover {
@@ -84,7 +85,15 @@ header {
 
 
 
+@media (max-width: 375px) {
+    .nav-ul-links {
+        display: none;
+    }
 
+    .nav-ul-li-links {
+        display: none;
+    }
+}
 
 
 
