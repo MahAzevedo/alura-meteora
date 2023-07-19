@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/categoria.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/bar.css">
+    <link rel="stylesheet" href="css/produto.css">
 </head>
 <body>
     <header>
@@ -37,7 +38,7 @@
     </header>
 
 
-
+    <!-- CAROUSEL -->
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#colecao" data-slide-to="0" class="active"></li>
@@ -54,87 +55,97 @@
         </div>
     </div>
 
-    
+    <!-- * CATEGORIA * busque por categoria -->
+    <section class="busquePorCategoria">
+        <h5 class="h5-busquePorCategoria">Busque por categoria:</h5>
+        <ul class="ul-busquePorCategoria">
+            <li class="li-busquePorCategoria">Camisetas</li>
+            <li class="li-busquePorCategoria">Bolsas</li>
+            <li class="li-busquePorCategoria">Calçados</li>
+            <li class="li-busquePorCategoria">Calças</li>
+            <li class="li-busquePorCategoria">Casacos</li>
+            <li class="li-busquePorCategoria">Óculos</li>
+        </ul>
+    </section>
 
-
+    <!-- * Produtos * que estão bombando! -->
     <section class="container__card__list">
         <ol class="card__list">
-                
-                    <li class="card">
-                    <img src="img/card/Card camiseta.png" alt="Imagem 01" class="imgCard">
-                    <div class="card__imagem">
-                        <h4>Camiseta Conforto</h4>
-                        <p>
-                            Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.
-                        </p>
-                        <p>R$ 70,00</p>
-                        <a href="#" class="verMais">Ver mais</a>
-                    </div>
-                </li>
+            <li class="card">
+            <img src="img/card/Card camiseta.png" alt="Imagem 01" class="imgCard">
+            <div class="card__imagem">
+                <h4>Camiseta Conforto</h4>
+                <p>
+                    Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.
+                </p>
+                <p>R$ 70,00</p>
+                <a href="#" class="verMais">Ver mais</a>
+            </div>
+            </li>
 
-                <li class="card">
-                    <img src="img/card/Card calça.png" alt="Imagem 02" class="imgCard">
-                    <div class="card__imagem">
-                        <h4>Calça Alfaiataria</h4>
-                        <p>
-                            Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!
-                        </p>
-                        <p>R$ 180,00</p>
-                        <a href="#" class="verMais">Ver mais</a>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="img/card/Card tenis.png" alt="Imagem 03" class="imgCard">
-                    <div class="card__imagem">
-                        <h4>Tênis Chunky</h4>
-                        <p>
-                            Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.
-                        </p>
-                        <p>R$ 250,00</p>
-                        <a href="#" class="verMais">Ver mais</a>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="img/card/Card jaqueta jeans.png" alt="Imagem 04" class="imgCard">
-                    <div class="card__imagem">
-                        <h4>Jaqueta Jeans</h4>
-                        <p>
-                            Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
-                        </p>
-                        <p>R$ 150,00</p>
-                        <a href="#" class="verMais">Ver mais</a>
-                        </div>
-                    </li>
-
-                <li class="card">
-                    <img src="img/card/Cards óculos.png" alt="Imagem 05" class="imgCard">
-                    <div class="card__imagem">
-                        <h4>Óculos Redondo</h4>
-                        <p>
-                            Armação metálica em grafite com lentes arredondadas. Sem erro!
-                        </p>
-                        <p>R$ 120,00</p>
-                        <a href="#" class="verMais">Ver mais</a>
-                    </div>
-                </li>
-
-                <li class="card">
-                <img src="img/card/Card bolsa.png" alt="Imagem 06" class="imgCard">
+            <li class="card">
+                <img src="img/card/Card calça.png" alt="Imagem 02" class="imgCard">
                 <div class="card__imagem">
-                    <h4>Bolsa coringa</h4>
+                    <h4>Calça Alfaiataria</h4>
                     <p>
-                        Bolsa camel em couro sintético de alta duração. 
-                        Ideal para acompanhar você por uma vida!
+                        Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!
+                    </p>
+                    <p>R$ 180,00</p>
+                    <a href="#" class="verMais">Ver mais</a>
+                </div>
+            </li>
+
+            <li class="card">
+                <img src="img/card/Card tenis.png" alt="Imagem 03" class="imgCard">
+                <div class="card__imagem">
+                    <h4>Tênis Chunky</h4>
+                    <p>
+                        Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.
+                    </p>
+                    <p>R$ 250,00</p>
+                    <a href="#" class="verMais">Ver mais</a>
+                </div>
+            </li>
+
+            <li class="card">
+                <img src="img/card/Card jaqueta jeans.png" alt="Imagem 04" class="imgCard">
+                <div class="card__imagem">
+                    <h4>Jaqueta Jeans</h4>
+                    <p>
+                        Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
+                    </p>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="verMais">Ver mais</a>
+                    </div>
+                </li>
+
+            <li class="card">
+                <img src="img/card/Cards óculos.png" alt="Imagem 05" class="imgCard">
+                <div class="card__imagem">
+                    <h4>Óculos Redondo</h4>
+                    <p>
+                        Armação metálica em grafite com lentes arredondadas. Sem erro!
                     </p>
                     <p>R$ 120,00</p>
                     <a href="#" class="verMais">Ver mais</a>
-                    </div>
-                
-                </li>
-            </ol>
-        </section>
+                </div>
+            </li>
+
+            <li class="card">
+            <img src="img/card/Card bolsa.png" alt="Imagem 06" class="imgCard">
+            <div class="card__imagem">
+                <h4>Bolsa coringa</h4>
+                <p>
+                    Bolsa camel em couro sintético de alta duração. 
+                    Ideal para acompanhar você por uma vida!
+                </p>
+                <p>R$ 120,00</p>
+                <a href="#" class="verMais">Ver mais</a>
+                </div>
+            
+            </li>
+        </ol>
+    </section>
 
         <!--******  Newsletter ******-->
         <section class="tiposDePagamento">
