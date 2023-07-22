@@ -1,19 +1,24 @@
 header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     background-color: black;
     padding: 11px;
-    margin: -2px; /*testar isso 
-    pra ver se fsz sentido*/
+    margin: -2px; 
+    max-width: 1440px;
+    /*height: 58px;  ligar depois 
+    de acertar o cabeçalho*/ 
 }
 
-.logo {
-    /* padding: 14px 97px 8px 55px; */
-    width: 181px;
-    height: 33px;
+/*
+.logo { /* nem tá funcionando essa bosta :/ */
+   /* background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    background-color: black;
+    width: 132.752px;
+    height: 32px;
+    position: left;
 }
+*/
+
 
 /* não tá bom isso daqui, melhor apagar
 .nav-links {
@@ -22,6 +27,12 @@ header {
     font-family: sans-serif;
 }
 */
+
+
+.nav-links {}
+
+
+
 
 .nav-ul-links {
     display: flex;
@@ -34,7 +45,7 @@ header {
 }
 
 .nav-ul-links:hover {
-    background-color: white;
+   /* background-color: white;*/
 }
 
 .nav-ul-li-links {
@@ -42,50 +53,22 @@ header {
     color: white;
 }
 
-.digiteproduto {
-    overflow: hidden;
-    background-color: #e9e9e9;
-    display: flex;
-    flex-direction: row;
-    padding: 10px 17px 16px 18px;
-}
 
-.digiteproduto :hover {
-    background-color: white;
-}
-
-.digiteproduto a {
-    float: left;
-    /*display: block;*/
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.digiteproduto a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.digiteproduto a.active {
-    background-color: #2196F3;
-    color: white;
-}
-
-.digiteproduto input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
 
 
 
 @media (max-width: 375px) {
+    header {
+        max-width: 375px;
+    }
+    .logo {
+        background-image: url("img/Logo-meteora/375.Logo mobile.png");
+        background-repeat: no-repeat;
+        padding: 14px 97px 8px 55px; 
+        width: 181px;
+        height: 33px;
+    }
+
     .nav-ul-links {
         display: none;
     }
@@ -93,11 +76,37 @@ header {
     .nav-ul-li-links {
         display: none;
     }
+
+    .carousel-inner { /*qual funciona? nenhum!*/
+        background-image: url("img/carousel/375.Banner.png");
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
 }
 
+@media (max-width: 768px) {
+    .logo {
+        background-image: url("img/Logo-meteora/768.Logo.png");
+        background-repeat: no-repeat;
+        padding: 14px 97px 8px 55px; 
+        width: 181px;
+        height: 33px;
+    }
+    header {
+        max-width: 768px;
+    }
+}
 
-
-
+/*
+@media (max-width: 1440px) {
+    .logo {
+        background-image: url("img/Logo-meteora/1440.Logo.png");
+        background-repeat: no-repeat;
+        padding: 14px 97px 8px 55px; 
+        width: 181px;
+        height: 33px;
+    }
+}
+*/
 
 
 

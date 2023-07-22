@@ -1,5 +1,31 @@
+.container__card__list {}
+
+.titulo-produtos {}
+
+.card__list {}
+
+.card {}
+
+.imgCard {}
+
+.h4-titulo-card {}
+
+.p-card {}
+
+.p-valor-card {}
+
+.produtos-botao {}
+
+.verMais {}
+
+
+
+
+
+
 /*  JAVASCRIPT  */
 
+/*
 .card__list {
     width: 671px;
     height: 762px;
@@ -12,3 +38,4 @@
     align-items: right;
     margin: 18px;
 }
+*/

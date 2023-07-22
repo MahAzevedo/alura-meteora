@@ -1,12 +1,19 @@
-.busquePorCategoria {
+.container-categoria {
     background-color: white;
 }
 
-.h5-busquePorCategoria {}
+.h2-container-categoria {}
 
-.ul-busquePorCategoria {}
-
-.li-busquePorCategoria {
+.ul-container-categoria {
     display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+.li-container-categoria {
+    /* apaguei */
 
 }
+
+.categoria {}
