@@ -9,15 +9,11 @@ header {
     de acertar o cabeçalho*/ 
 }
 
-/*
-.logo { /* nem tá funcionando essa bosta :/ */
-   /* background: url(<path-to-image>), lightgray 50% / contain no-repeat;
-    background-color: black;
-    width: 132.752px;
-    height: 32px;
-    position: left;
+.logo {
+    height: 58px;
+    padding-left: 16px;
 }
-*/
+
 
 
 /* não tá bom isso daqui, melhor apagar

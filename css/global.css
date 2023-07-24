@@ -4,6 +4,8 @@
     box-sizing: border-box; 
 }
 
+.root {}
+
 body {
     background-color: gray;
     margin: 0;
