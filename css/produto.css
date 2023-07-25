@@ -1,3 +1,4 @@
+/*
 .container__card__list {}
 
 .titulo-produtos {}
@@ -14,7 +15,7 @@
 
 .p-valor-card {}
 
-
+*/
 
 
 /*
@@ -33,7 +34,7 @@
 .digiteproduto a {
     float: left;
     /*display: block;*/
-   /* color: black;
+    /* color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

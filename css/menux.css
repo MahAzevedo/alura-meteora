@@ -20,7 +20,7 @@ body {
 
 
 
-
+/*
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -51,6 +51,7 @@ body {
 /* Style the active/current link  
 não gostei tanto desse */
 
+/*
 .header a.active {
   background-color: dodgerblue;
   color: white;
@@ -96,7 +97,7 @@ não gostei tanto desse */
 
 /* outro menu */
 
-
+/*
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -135,6 +136,7 @@ não gostei tanto desse */
 
 
 /* menu animado */
+/*
 
 .container {
   display: inline-block;
@@ -150,14 +152,17 @@ não gostei tanto desse */
 }
 
 /* Rotate first bar */
+/*
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
 /* Fade out the second bar */
+/*
 .change .bar2 {opacity: 0;}
 
 /* Rotate last bar */
+/*
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }

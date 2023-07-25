@@ -1,52 +1,162 @@
 header {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
+    justify-content: left;
+    background: black;
     padding: 11px;
-    margin: -2px; 
-    max-width: 1440px;
-    /*height: 58px;  ligar depois 
-    de acertar o cabeçalho*/ 
+    gap: 28px;
+    align-items: center;
+    height: 76px; /*altura do cabeçalho*/
+    align-items: center;
 }
 
+/* LOGO METEORA */
 .logo {
     height: 58px;
     padding-left: 16px;
 }
-
-
-
-/* não tá bom isso daqui, melhor apagar
-.nav-links {
+/* BARRA DE NAVEGAÇÃO */
+#nav {
     display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
 }
-*/
+
+/* MENU: HOME,LOJAS, ETC */
+#menu {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+
+/* LINKS DA NAVEGAÇÃO */
+.a-menu {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 54px;
+    padding: 23px;
+    cursor: pointer;
+    padding: 1.5rem; 
+}
+
+/* ESPAÇO COLORIDO PARA CADA LINK */
+.a-menu:hover {
+    background: gray;
+}
+
+/* TESTE: Barra para mobile: TESTE */
+#btn-mobile { 
+    display: none;
+    /*bloqueia aparecer na tela grande*/
+}
+
+/* BARRA PARA MOBILE  */
+.bar-mobile {
+    width: 25px;
+    height: 3px;
+    background-color: #DAFF01;
+    margin: 3px;
+}
+
+/* BARRA DE PESQUISA */
+.search-bar {
+    padding: 15px 169px;
+    height: 13px;
+    margin: 23px;
+}
+.search-bar text {
+    padding: 6px 10px;
+    border: 1px solid black;
+}
+.search-bar input [type="text"],
+.search-bar-mobile input [type="text"] {
+    padding: 6px 10px;
+    border: 1px solid black;
+}
+
+.search-bar button,
+.search-bar-mobile button {
+    cursor: pointer;
+    padding: 6px 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.search-bar-mobile { 
+    display: none;
+    /*para desaparecer o search da
+    tela grande*/
+}
 
 
+
+@media (max-width: 375px) {
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        /*display: none;*/
+        display: block;
+        position: absolute;
+        width: 100%; /*largura da tela*/
+        top: 70px;
+        right: 0px;
+        background: #343A40;
+        height: 100vh; /*tamanho todo da tela, viewport*/
+    }
+    #nav.active #menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 1440px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .nav-links {}
 
 
 
-
+/*
 .nav-ul-links {
     display: flex;
-    color: white;
+    color: var(--color-white);
     overflow: hidden;
     display: flex;
     list-style: none;
     gap: 10px;
-    list-style: none;
-}
-
+    
+} */
+/*
 .nav-ul-links:hover {
-   /* background-color: white;*/
+    /* background-color: white;*/ /*
 }
-
+/*
 .nav-ul-li-links {
     text-decoration: none;
-    color: white;
+    color: var(--color-white);
 }
 
 
@@ -74,11 +184,13 @@ header {
     }
 
     .carousel-inner { /*qual funciona? nenhum!*/
+        /*
         background-image: url("img/carousel/375.Banner.png");
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+    /*    
     }
 }
-
+/*
 @media (max-width: 768px) {
     .logo {
         background-image: url("img/Logo-meteora/768.Logo.png");
@@ -91,9 +203,12 @@ header {
         max-width: 768px;
     }
 }
-
+*/
 /*
 @media (max-width: 1440px) {
+    .header {
+        max-width: 1440px;
+    }
     .logo {
         background-image: url("img/Logo-meteora/1440.Logo.png");
         background-repeat: no-repeat;
@@ -132,7 +247,7 @@ header {
         margin: 0;
         padding: 13px 20px 15px 17px;
     }
-      
+    
     .digiteprodutoinput[type=text] {
         border: 1px solid #ccc;  
     }
@@ -154,7 +269,7 @@ header {
         display: flex;
         flex-direction: row;
     }
-   
+
 }
 
 @media (max-width: 1440px) {
@@ -164,6 +279,7 @@ header {
         justify-content: space-between;
         align-items: center;
         background-color: black; 
+        max-width: 1440px;
     }
 
     .nav-links {

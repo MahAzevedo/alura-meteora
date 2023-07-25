@@ -1,3 +1,4 @@
+/*
 const card = [
     {
         img: "img/card/Card camiseta.png",
@@ -76,3 +77,5 @@ function renderCard(card) {
 
     list.appendChild(listItem);
 }
+
+*/
