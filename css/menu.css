@@ -91,6 +91,11 @@ header {
 
 
 @media (max-width: 375px) {
+    header {
+        max-width: 375px;
+        padding: 0px;
+        gap: 10px;
+    }
     #btn-mobile {
         display: block;
     }
@@ -118,9 +123,10 @@ header {
         margin: 0 16px;
         border-bottom: 2px solid gray;
     }
-    #btn-mobile { /*botao via CSS, teste*/
+    /*botao via CSS*/
+    #btn-mobile { 
         display: flex;
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 0rem; /*1rem*/
         font-size: 1rem;
         border: none;
         background-color:#000000; 
