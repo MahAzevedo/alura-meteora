@@ -95,17 +95,40 @@ header {
         display: block;
     }
     #menu {
-        /*display: none;*/
-        display: block;
+        display: block;/*tirei o none, no lugar o visibility*/
         position: absolute;
         width: 100%; /*largura da tela*/
         top: 70px;
         right: 0px;
         background: #343A40;
-        height: 100vh; /*tamanho todo da tela, viewport*/
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;/*escondido na altura, eixo de y, 
+        trabalha junto com visibility: hidden;*/
     }
     #nav.active #menu {
+        height: calc(100vh - 70px); /*tamanho todo da tela, viewport*/
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .a-menu {
+        padding: 16px 0;
+        margin: 0 16px;
+        border-bottom: 2px solid gray;
+    }
+    #btn-mobile { /*botao via CSS, teste*/
         display: flex;
+        padding: 1.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background-color:#000000; 
+        color: #DAFF01;
+        cursor: pointer;
+    }
+    #hamburguer {
+        width: 20px;
     }
 }
 
