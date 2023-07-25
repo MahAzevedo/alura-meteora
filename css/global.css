@@ -9,6 +9,7 @@
 .root {
     --color-white: #FFFFFF;
     --color-black: #000000;
+    --color-hamburguer: #DAFF01; 
 }
 
 body {

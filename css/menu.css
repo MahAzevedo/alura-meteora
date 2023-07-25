@@ -124,11 +124,35 @@ header {
         font-size: 1rem;
         border: none;
         background-color:#000000; 
-        color: #DAFF01;
+        color: var(--color-hamburguer);
         cursor: pointer;
+        gap: 0.5rem;
     }
     #hamburguer {
+        display: block;
         width: 20px;
+        border-top: 2px solid #DAFF01;
+    }
+    #hamburguer::after, #hamburguer::before {
+        display: block;
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: #DAFF01;
+        /*background: currentColor;*/
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
 }
 
