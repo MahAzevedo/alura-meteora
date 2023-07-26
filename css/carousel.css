@@ -8,7 +8,13 @@
 
 
 
-@media (max-width: 375px) {}
+
+
+@media (max-width: 375px) {
+    .carousel-inner {
+        background-image: url('img/carousel/375.Mobile.png');
+    }
+}
 
 @media (max-width: 600px) {}
 
