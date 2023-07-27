@@ -30,6 +30,7 @@ header {
 .a-menu {
     display: block;
     color: white;
+    color: var(--cor-branco);
     font-family: sans-serif;
     font-size: 19px;
     line-height: 54px;
@@ -54,6 +55,7 @@ header {
     width: 25px;
     height: 3px;
     background-color: #DAFF01;
+    color: var(--cor-verde);
     margin: 3px;
 }
 
@@ -90,12 +92,14 @@ header {
 
 
 
-@media (max-width: 320px),(max-width: 375px), (max-width: 600px) {
+@media (max-width: 375px) {
+    /*
     header {
         max-width: 375px;
         padding: 0px;
         gap: 10px;
     }
+    */
     #btn-mobile {
         display: block;
     }

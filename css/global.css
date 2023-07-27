@@ -7,9 +7,9 @@
 }
 
 .root {
-    --cor-de-fundo: #FFFFFF;
-    --cor-de-fundo: #000000;
-    --cor-do-hamburguer: #DAFF01; 
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --cor-verde: #DAFF01; 
 }
 
 body {
