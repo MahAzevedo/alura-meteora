@@ -1,6 +1,10 @@
 .container-carrossel {}
 
-
+.h2-container-categoria {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -11,13 +15,17 @@
 
 
 @media (max-width: 375px) {
-    .carousel-inner {
-        background-image: url('img/carousel/375.Mobile.png');
-    }
+    
 }
 
 @media (max-width: 600px) {}
 
 @media (max-width: 768px) {}
 
-@media (max-width: 1440px) {}
+@media (max-width: 1440px) {
+    .carousel-inner {
+        background-image: url('img/carousel/768.Banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
