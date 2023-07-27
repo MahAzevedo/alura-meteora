@@ -7,13 +7,13 @@
 }
 
 .root {
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-    --color-hamburguer: #DAFF01; 
+    --cor-de-fundo: #FFFFFF;
+    --cor-de-fundo: #000000;
+    --cor-do-hamburguer: #DAFF01; 
 }
 
 body {
-    background-color: gray;
+    background-color: gray; /*cor minha, só pra construção*/
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }

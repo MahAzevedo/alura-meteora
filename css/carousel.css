@@ -1,7 +1,7 @@
 .container-carrossel {}
 
 .h2-container-categoria {
-    color: white;
+    color: var(--cor-de-fundo);
     display: flex;
     justify-content: center;
 }

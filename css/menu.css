@@ -130,7 +130,7 @@ header {
         font-size: 1rem;
         border: none;
         background-color:#000000; 
-        color: var(--color-hamburguer);
+        color: var(--cor-de-hamburguer);
         cursor: pointer;
         gap: 0.5rem;
     }
