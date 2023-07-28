@@ -1,9 +1,107 @@
-.container-carrossel {}
+.container-carousel {}
 
-.carousel-inner {
-    /*bottom: 67px;*/
+
+
+
+.banner1-768 {
+    width: 25%;
+    float:	left;
+    /*float pra quando a imagem crescer*/
 }
 
+.banner1-1440 {}
+
+
+
+
+
+
+
+/*
+@media (min-width: 375px) {
+    .banner1-375 {
+        width: 25%;
+        height: 415px;
+        flex-shrink: 0;
+        background: url("img/carousel/375.Banner.1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+*/
+
+
+.banner1-375	{
+    float:	left;
+    width: 25%;
+}
+@media	(max-width:	375px)	{
+    .banner1-375	{
+        float:	none;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container-carrossel {}*/
+
+/*.carousel-inner {
+   /* bottom: 67px;
+}
+*/
 /*
 .slogan-meteora {
     display: none;
@@ -18,8 +116,10 @@
     lightgray 50% , 
     cover no-repeat;
     background: mediumpurple;
+    text-align: center;
 }*/
 
+/*
 .banner-titulo {
     color: var(--cor-branco);
     color: white;
@@ -37,6 +137,7 @@
     font-size: 16px;
 }
 
+*/
 
 
 
@@ -45,14 +146,13 @@
 
 
 
-
-/*  CATEGORIA */
+/*  CATEGORIA 
 .h2-container-categoria {
     color: var(--cor-branco);
     display: flex;
     justify-content: center;
 }
-
+*/
 
 
 
@@ -70,6 +170,7 @@
 }
 */
 
+/*
 @media (max-width: 375px) {
     
 }
@@ -77,6 +178,7 @@
 @media (max-width: 600px) {}
 
 @media (max-width: 768px) {}
+*/
 
 /*@media (max-width: 1440px) {
     .carousel-inner {
