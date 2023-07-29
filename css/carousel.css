@@ -1,16 +1,78 @@
 .container-carousel {}
 
+.d-block .w-100 {
+    width: auto;
+}
+
+#demo {}
+
+
+@media (max-width: 1440px) {
+    
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .banner1-768 {
     width: 25%;
     float:	left;
-    /*float pra quando a imagem crescer*/
+    /*float pra quando a imagem crescer
 }
 
 .banner1-1440 {}
 
+*/
 
 
 
@@ -32,6 +94,7 @@
 */
 
 
+/*
 .banner1-375	{
     float:	left;
     width: 25%;
@@ -42,6 +105,7 @@
         width: 100%;
     }
 }
+*/
 
 
 
