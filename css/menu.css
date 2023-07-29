@@ -10,9 +10,21 @@ header {
 }
 
 /* LOGO METEORA */
+figure {
+    margin: 3px 10px 0rem;
+}
 .logo {
-    height: 58px;
-    padding-left: 16px;
+    height: 51px;
+    padding: 0px;
+    margin: 10px;
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 0;
+    background-image: url('');
 }
 /* BARRA DE NAVEGAÇÃO */
 #nav {
@@ -30,7 +42,6 @@ header {
 .a-menu {
     display: block;
     color: white;
-    color: var(--cor-branco);
     font-family: sans-serif;
     font-size: 19px;
     line-height: 54px;
@@ -130,11 +141,11 @@ header {
     /*botao via CSS*/
     #btn-mobile { 
         display: flex;
-        padding: 1.5rem 0rem; /*1rem*/
+        padding: 2.5rem 2rem; 
         font-size: 1rem;
         border: none;
         background-color:#000000; 
-        color: var(--cor-de-hamburguer);
+        color: #DAFF01;
         cursor: pointer;
         gap: 0.5rem;
     }
@@ -168,7 +179,79 @@ header {
 
 @media (max-width: 600px) {}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    
+    header {
+        max-width: 768px;
+        padding: 0px;
+        gap: 10px;
+    }
+    
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        display: block;/*tirei o none, no lugar o visibility*/
+        position: absolute;
+        width: 100%; /*largura da tela*/
+        top: 70px;
+        right: 0px;
+        background: #343A40;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;/*escondido na altura, eixo de y, 
+        trabalha junto com visibility: hidden;*/
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px); /*tamanho todo da tela, viewport*/
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .a-menu {
+        padding: 16px 0;
+        margin: 0 16px;
+        border-bottom: 2px solid gray;
+    }
+    /*botao via CSS*/
+    #btn-mobile { 
+        display: flex;
+        padding: 2.5rem 2rem; 
+        font-size: 1rem;
+        border: none;
+        background-color:#000000; 
+        color: #DAFF01;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburguer {
+        display: block;
+        width: 20px;
+        border-top: 2px solid #DAFF01;
+    }
+    #hamburguer::after, #hamburguer::before {
+        display: block;
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: #DAFF01;
+        /*background: currentColor;*/
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
 
 @media (max-width: 1440px) {}
 

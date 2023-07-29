@@ -1,3 +1,14 @@
+.imgCard {
+    width: 350px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0px 0px;
+    background: url(<path-to-image>),
+    lightgray 0px -105.751px / 100% 124.408% no-repeat;
+    
+}
+
+
 
 /*.container__card__list {}
 

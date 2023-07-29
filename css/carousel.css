@@ -7,15 +7,45 @@
 #demo {}
 
 
-@media (max-width: 1440px) {
-    
+.carousel-inner {
+    width: 350px;
+    height: 422px;
+    flex-shrink: 0;
 }
 
+/*
+@media (min-width: 375px) {
+    .carousel-inner {
+        background-image: url('/img/carousel/375.Banner.2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top right;
+        height: auto;
+    }
+}
 
+@media (min-width: 768px) {
+    .carousel-inner {
+        background-image: url('/img/carousel/768.Banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top right;
+        height: auto;
+    }
+}
 
-
-
-
+@media (min-width: 1440px) {
+    .carousel-inner {
+        background-image: url('/img/carousel/1440.Banner.2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top right;
+        width: 1440px;
+        height: 415px;
+        flex-shrink: 0;
+    }
+}
+*/
 
 
 
