@@ -1,21 +1,27 @@
-/*
 .container-categoria {
-    background-color: white;
+    text-align: center;
+    color: #212529;
 }
 
-.h2-container-categoria {}
+.h2-container-categoria {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px 6px 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .ul-container-categoria {
     display: inline-block;
 }
 
-li {
-    display: inline-block;
-}
 .li-container-categoria {
-    /* apaguei */
-/*
+    display: inline-block;
+    margin: 0px 24px 0px -16px;
 }
 
-.categoria {}
-*/
+

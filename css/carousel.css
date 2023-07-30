@@ -2,15 +2,18 @@
 
 .d-block .w-100 {
     width: auto;
+    height: 920px;
+    height: 415px;
 }
 
 #demo {}
 
 
 .carousel-inner {
-    width: 350px;
+    width: 375px;
     height: 422px;
     flex-shrink: 0;
+
 }
 
 /*

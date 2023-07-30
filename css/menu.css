@@ -7,9 +7,10 @@ header {
     align-items: center;
     height: 76px; /*altura do cabeçalho*/
     align-items: center;
+    width: 375px;
 }
 
-/* LOGO METEORA */
+/* NAVEGAÇÃO E LOGO METEORA */
 figure {
     margin: 3px 10px 0rem;
 }
@@ -29,6 +30,8 @@ figure {
 /* BARRA DE NAVEGAÇÃO */
 #nav {
     display: flex;
+    align-items: center; 
+
 }
 
 /* MENU: HOME,LOJAS, ETC */
@@ -48,6 +51,7 @@ figure {
     padding: 23px;
     cursor: pointer;
     padding: 1.5rem; 
+    text-decoration: none
 }
 
 /* ESPAÇO COLORIDO PARA CADA LINK */
@@ -104,13 +108,12 @@ figure {
 
 
 @media (max-width: 375px) {
-    /*
     header {
         max-width: 375px;
         padding: 0px;
         gap: 10px;
     }
-    */
+    
     #btn-mobile {
         display: block;
     }
@@ -141,13 +144,13 @@ figure {
     /*botao via CSS*/
     #btn-mobile { 
         display: flex;
-        padding: 2.5rem 2rem; 
+        padding: 0.5rem 2rem;
         font-size: 1rem;
         border: none;
-        background-color:#000000; 
-        color: #DAFF01;
+        background-color: black;
+        color: rgb(218, 255, 1);
         cursor: pointer;
-        gap: 0.5rem;
+        gap: 2.5rem;
     }
     #hamburguer {
         display: block;
@@ -160,7 +163,6 @@ figure {
         width: 20px;
         height: 2px;
         background: #DAFF01;
-        /*background: currentColor;*/
         margin-top: 5px;
         transition: 0.3s;
         position: relative;
@@ -179,21 +181,24 @@ figure {
 
 @media (max-width: 600px) {}
 
+/*
 @media (max-width: 768px) {
     
+    /*
     header {
         max-width: 768px;
         padding: 0px;
         gap: 10px;
     }
+    *
     
     #btn-mobile {
         display: block;
     }
     #menu {
-        display: block;/*tirei o none, no lugar o visibility*/
+        display: block;/*tirei o none, no lugar o visibility*
         position: absolute;
-        width: 100%; /*largura da tela*/
+        width: 100%; /*largura da tela*
         top: 70px;
         right: 0px;
         background: #343A40;
@@ -202,10 +207,10 @@ figure {
         height: 0px;
         visibility: hidden;
         overflow-y: hidden;/*escondido na altura, eixo de y, 
-        trabalha junto com visibility: hidden;*/
+        trabalha junto com visibility: hidden;*
     }
     #nav.active #menu {
-        height: calc(100vh - 70px); /*tamanho todo da tela, viewport*/
+        height: calc(100vh - 70px); /*tamanho todo da tela, viewport*
         visibility: visible;
         overflow-y: auto;
     }
@@ -214,7 +219,7 @@ figure {
         margin: 0 16px;
         border-bottom: 2px solid gray;
     }
-    /*botao via CSS*/
+    /*botao via CSS*
     #btn-mobile { 
         display: flex;
         padding: 2.5rem 2rem; 
@@ -236,7 +241,6 @@ figure {
         width: 20px;
         height: 2px;
         background: #DAFF01;
-        /*background: currentColor;*/
         margin-top: 5px;
         transition: 0.3s;
         position: relative;
@@ -252,6 +256,7 @@ figure {
         top: -7px;
     }
 }
+*/
 
 @media (max-width: 1440px) {}
 
