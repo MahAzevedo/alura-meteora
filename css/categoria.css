@@ -27,38 +27,7 @@
 }
 
 
-/* Teste de categoria */
 
 
-
-
-.card-categoria {
-    display: flex;
-    width: 146px;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
-}
-.card-text {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.card-footer .bg-dark {
-    color: white;
-}
-
-.bg-transparent {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
-    color: white;
-    text-align: center;
-    /* background: white; */
-    background-color: white;
-}
 
 

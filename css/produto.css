@@ -34,7 +34,15 @@
 
 .card-title {}
 
-.card-text {}
+.card-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 .card-price {
     font-weight: bold;
@@ -50,3 +58,14 @@
 }
 
 
+.h2-container-categoria {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px 6px 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
