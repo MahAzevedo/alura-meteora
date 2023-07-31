@@ -1,4 +1,6 @@
-.card-container-produtos {}
+.card-container-produtos {
+    width: 375px;
+}
 
 .card-h2-titulo-produtos {
     display: flex;
@@ -46,4 +48,5 @@
 .btn-primary {
     background: #9353FF;
 }
+
 
