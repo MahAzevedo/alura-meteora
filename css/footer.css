@@ -1,5 +1,5 @@
 /*  FOOTER  */
-/*
+
 .quemDesenvolveuRodape {
     display: flex;
     flex-direction: column;
@@ -7,12 +7,25 @@
     color: white;
     text-align: center;
     align-items: center;
-    font: 1em sans-serif;
-    padding: 16px;
+    padding: 36px;
+    width: auto;
+    height: auto;
 }
 
+.madjan-rodape {
+    color: white;
+}
 
+.madjan-link {
+    color: #DAFF01;
+    text-decoration-color: blueviolet;
+}
 
+.alura-link {
+    color: #DAFF01;
+    text-decoration-color: blueviolet;
+}
+/*
 @media (max-width: 768px) {
     .quemDesenvolveuRodape {
         display: flex;
