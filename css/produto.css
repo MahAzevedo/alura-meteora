@@ -1,6 +1,8 @@
 .card-container-produto {
     width: 375px;
     height: auto;
+    margin: 0px 0px 0px -6px;
+    padding: 7px 0px 0px 0px;
 }
 
 .card-h2-titulo-produto {
@@ -40,7 +42,7 @@
 
 .card-title-produto {
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 18px;
 }
 
 .card-text-produto {

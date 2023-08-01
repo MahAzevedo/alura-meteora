@@ -16,8 +16,8 @@ figure {
 }
 .logo {
     height: 51px;
-    padding: 0px;
-    margin: 10px;
+    padding: 12px 0px 0px 18px;
+    margin: 0px;
     align-items: stretch;
     display: flex;
     flex-basis: auto;
@@ -25,7 +25,7 @@ figure {
     flex-shrink: 0;
     position: relative;
     z-index: 0;
-    background-image: url('');
+    background-image: url(menu.css);
 }
 /* BARRA DE NAVEGAÇÃO */
 #nav {
