@@ -17,9 +17,16 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 10px;
 }
 
-.card {}
+.card {
+    display: flex;
+    justify-content: center;
+    width: 146px;
+    align-items: center;
+    flex-shrink: 0;
+}
 
 .card-img-top {}
 
