@@ -36,7 +36,7 @@
 
 .card-body {
     border: 1px solid lightgray;
-    margin: -3px -11px 41px 1px;
+    margin: -3px -11px 41px 0px;
     padding: 7px 11px 21px 8px;
 }
 
@@ -46,7 +46,6 @@
 }
 
 .card-text-produto {
-    background-color: white;
     color: black;
     text-align: left;
     font-size: 16px;
@@ -67,7 +66,6 @@
 .btn-primary {
     background: #9353FF;
 }
-
 
 .h2-container-produto {
     font-size: 32px;
@@ -93,3 +91,4 @@
 .card {
     padding: 13px 20px 16px 26px;
 }
+
