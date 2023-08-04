@@ -21,6 +21,26 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 1440px) {
+    header {
+        width: 1440px;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    header {
+        width: 768px;
+    }
+}
 
+@media screen and (max-width: 3000px) {
+    header {
+        width: 3000px;
+    }
+}
 
+@media screen and (max-width: 2560px) {
+    header {
+        width: 2560px;
+    }
+}

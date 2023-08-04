@@ -1,0 +1,32 @@
+.container-search-nav {
+    display: flex;
+    margin: 34px;
+    text-align: justify;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.placeholder-produto {
+    border: 1px solid #FFF;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.submit-produto {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 6rem;
+}
+
+
+
+
+
