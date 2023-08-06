@@ -26,6 +26,13 @@ figure {
     z-index: 0;
     background-image: url(menu.css);
 }
+
+.logo { 
+    max-width: 100%;
+    /* max-width deixa 
+    a imagem responsiva*/
+}
+
 /* BARRA DE NAVEGAÇÃO */
 #nav {
     display: flex;
