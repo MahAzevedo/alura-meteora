@@ -22,7 +22,8 @@
 }
 
 .li-container-categoria {
-    display: inline-block;
+    display: flex; /*inline-block;*/
+    flex-wrap: wrap;
     margin: 0px 24px 0px -16px;
 }
 
