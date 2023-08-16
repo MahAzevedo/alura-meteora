@@ -25,7 +25,7 @@
     display: flex; /*inline-block;*/
     flex-wrap: wrap;
     margin: 0px 24px 0px -16px;
-}
+} /* wrap quebra o que for selecionado para caber no tamanho da tela */
 
 .categoria-texto-p {
     background-color: black;
